@@ -1,3 +1,25 @@
+my-bachata-app/
+│
+├── apps/
+│   └── web/                ← Next.js app (Next 14 App Router)
+│       ├── app/
+│       ├── components/
+│       ├── pages/          ← (Ha pages routert használnál inkább)
+│       └── next.config.js
+│
+├── packages/
+│   └── core/               ← Újrahasznosítható logika (hooks, típusok, utils)
+│       ├── hooks/
+│       ├── types/
+│       └── utils/
+│
+├── turbo.json             ← Turborepo build pipeline definíció
+├── package.json
+├── tsconfig.json
+├── .gitignore
+└── README.md
+
+
 # Turborepo starter
 
 This Turborepo starter is maintained by the Turborepo core team.

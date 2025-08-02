@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "@repo/ui": "*",
+    "cloudinary": "^2.7.0",
+    "firebase": "^12.0.0",
     "next": "^15.4.2",
+    "next-cloudinary": "^6.16.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
