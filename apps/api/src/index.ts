@@ -9,7 +9,6 @@ import uploadRouter from './routes/upload';
 const app = express();
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
-console.log('Cloudinary API Key:', process.env.CLOUDINARY_API_KEY);
 
 app.use('/api', uploadRouter);
 app.get('/', (req, res) => {

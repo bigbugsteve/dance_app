@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "CommonJS",
+    "composite": true,
     "outDir": "dist",
-    "rootDir": "src",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    "rootDir": "src"
   },
-  "include": ["src", "../../packages", "src/lib"]
-
+  "references": [
+    { "path": "../../packages/ui" }
+  ],
+  "include": ["src"]
 }
